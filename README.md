@@ -31,6 +31,7 @@ running a small fleet of 3D printers.
 | [serial-scope](https://github.com/projectbin07-stack/serial-scope) | Serial monitor, logger and live plotter for Windows and Linux that decodes structured telemetry (Arduino plotter, CSV, JSON, CRC-checked binary frames) and replays logs exactly | Python, tkinter |
 | [ina219-battery-monitor](https://github.com/projectbin07-stack/ina219-battery-monitor) | INA219 battery and power telemetry firmware with OLED display, coulomb counting and a host logger | C++, PlatformIO |
 | [tickreplay](https://github.com/projectbin07-stack/tickreplay) | Deterministic event-driven backtesting and paper-trading research engine with no look-ahead | Python (stdlib) |
+| [market-data-recorder](https://github.com/projectbin07-stack/market-data-recorder) | Gap-aware recorder for public exchange trade streams (Binance, Coinbase, Kraken) writing checksummed, tickreplay-compatible files | Python, asyncio |
 | [xray-analysis-aiml](https://github.com/projectbin07-stack/xray-analysis-aiml) | Dashboard around the pretrained TorchXRayVision chest X-ray classifier, with optional local-LLM explanation | PyTorch, FastAPI |
 | [wound-analysis-aiml](https://github.com/projectbin07-stack/wound-analysis-aiml) | U-Net wound segmentation with image-derived metrics and a dashboard | PyTorch, FastAPI, OpenCV |
 
