@@ -20,6 +20,7 @@ running a small fleet of 3D printers.
 |---|---|---|
 | [lidar-slam-lab](https://github.com/projectbin07-stack/lidar-slam-lab) ([live demo](https://projectbin07-stack.github.io/lidar-slam-lab/)) | Browser sandbox for 2D LiDAR: occupancy-grid mapping, scan matching and particle-filter localisation, with live error metrics | JavaScript, no dependencies |
 | [printfarm-planner](https://github.com/projectbin07-stack/printfarm-planner) | Schedules print jobs across a mixed Bambu fleet with AMS, nozzle, bed and staffed-hours constraints; HTML Gantt report | Python (stdlib) |
+| [stl-doctor](https://github.com/projectbin07-stack/stl-doctor) | Checks STL / 3MF meshes before slicing: holes, flipped faces, overhangs, thin walls, bed fit; opt-in repair and an HTML report with drawn views | Python (stdlib) |
 | [gcode-insight](https://github.com/projectbin07-stack/gcode-insight) | Analyse FDM G-code without a printer: layers, filament, time estimate, cost and price per print or batch, HTML report | Python |
 | [mecanum-kinematics](https://github.com/projectbin07-stack/mecanum-kinematics) | Inverse / forward kinematics, SE(2) odometry and a deterministic simulator for 4-wheel mecanum robots, usable with or without ROS 2 | Python, NumPy |
 | [ina219-battery-monitor](https://github.com/projectbin07-stack/ina219-battery-monitor) | INA219 battery and power telemetry firmware with OLED display, coulomb counting and a host logger | C++, PlatformIO |
