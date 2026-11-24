@@ -18,6 +18,7 @@ running a small fleet of 3D printers.
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[robot-studio](https://github.com/projectbin07-stack/robot-studio)** ([live demo](https://projectbin07-stack.github.io/robot-studio/)) | Flagship. Open or build a robot (URDF / xacro / templates), check it, see it in 3D, export a ROS 2 package, and drive it in a simulated world with wheels, encoders, IMU, LiDAR, odometry, scan matching and MCL. Integrates urdf-inspector, lidar-slam-lab, mecanum-kinematics and encoder-odometry-firmware | JavaScript, three.js |
 | [lidar-slam-lab](https://github.com/projectbin07-stack/lidar-slam-lab) ([live demo](https://projectbin07-stack.github.io/lidar-slam-lab/)) | Browser sandbox for 2D LiDAR: occupancy-grid mapping, scan matching and particle-filter localisation, with live error metrics | JavaScript, no dependencies |
 | [pid-tuning-lab](https://github.com/projectbin07-stack/pid-tuning-lab) ([live demo](https://projectbin07-stack.github.io/pid-tuning-lab/)) | Browser lab for tuning discrete PID controllers on motor, thermal and other plant models: anti-windup, autotuning, Bode / Nyquist and stability margins | JavaScript, no dependencies |
 | [imu-calibration-lab](https://github.com/projectbin07-stack/imu-calibration-lab) ([live demo](https://projectbin07-stack.github.io/imu-calibration-lab/)) | Calibrates accelerometers, gyros and magnetometers from logged data in the browser (multi-position, ellipsoid fit, Allan deviation) and exports C/C++ constants | JavaScript, no dependencies |
